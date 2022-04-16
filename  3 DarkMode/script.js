@@ -6,10 +6,8 @@ const btn = document.querySelector('.btn');
 console.log(btn);
 const icone = document.querySelector('i');
 console.log(icone);
-const container = document.querySelector('.container');
-console.log(container);
-const title = document.querySelector('.title');
-console.log(title);
+const container = document.querySelector('i');
+
 
 
 switchBox.addEventListener('click', function() {
