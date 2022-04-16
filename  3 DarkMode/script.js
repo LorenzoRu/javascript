@@ -1,14 +1,10 @@
 console.log("connected");
 
 const switchBox = document.querySelector('.switch');
-console.log(switchBox);
 const btn = document.querySelector('.btn');
-console.log(btn);
 const icone = document.querySelector('i');
-console.log(icone);
-const container = document.querySelector('i');
-
-
+const container = document.querySelector('.container');
+const title = document.querySelector('.title');
 
 switchBox.addEventListener('click', function() {
     console.log("switch clicked");

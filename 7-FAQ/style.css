@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,26 +24,28 @@ body {
     background-color: #eee;
 }
 
-.btn {
-    cursor: pointer;
-    border: none;
-    color: white;
-    padding: 1rem;
-    margin: 2rem;
-    background-color: #6BCB77;
+.bannerTitle {
+  margin-bottom: 2rem;
 }
 
-.toast {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin: 3rem;
-    font-size: 1.2rem;
+.ask {
+    background-color: #FEB139;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  1rem;
+    color: #eee;
+    border-bottom: 1px solid #777;
+    width: 400px;
 }
 
-.msg {
-    padding: 1rem;
-    margin: 0.7rem;
-    border: 1px solid rgb(181, 181, 181);
-    border-left: 4px solid #6BCB77;
+.answer{ 
+    color: #777;
+    background-color: #eee;
+    padding: 3rem;
+    display: none;
+}
+
+.show {
+    display: block;
 }
